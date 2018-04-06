@@ -1,0 +1,138 @@
+﻿<Window x:Class="Asgnm4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Asgnm4"
+        xmlns:local1="clr-namespace:Asgnm4.Validation1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="1000">
+    <Window.Resources>
+        <local:AgeConverter x:Key="ageConverter"/>
+    </Window.Resources>
+    <Grid x:Name="formGrid" Margin="2,2,-2,-2">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="LblHouseType" Content="House type" HorizontalAlignment="Left" Margin="0,12,0,0" VerticalAlignment="Top" RenderTransformOrigin="-8.888,-0.352" Height="34" Width="127" FontFamily="Times New Roman" FontSize="16"/>
+        <Label x:Name="lblName" Content="Client's name" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-8.888,-0.352" Height="34" Width="127" FontFamily="Times New Roman" FontSize="16" Grid.Row="1" Margin="0,11,0,0"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="20" Margin="131,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontFamily="Times New Roman" FontSize="16" Grid.Row="1" ToolTip="{Binding ElementName=txtName, Path=(Validation.Errors)[0].ErrorContent}">
+            <TextBox.Text>
+                <Binding NotifyOnValidationError="True" Path="Name">
+                    <Binding.ValidationRules>
+                        <local1:ValidationName/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label x:Name="lblSize" Content="House size" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-8.888,-0.352" Height="34" Width="127" FontFamily="Times New Roman" FontSize="16" Grid.Row="4" Margin="0,11,0,0"/>
+        <TextBox x:Name="txtSize" HorizontalAlignment="Left" Height="20" Margin="131,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontFamily="Times New Roman" FontSize="16" Grid.Row="4" TextChanged="txtSize_TextChanged " ToolTip="{Binding ElementName=txtSize, Path=(Validation.Errors)[0].ErrorContent}">
+            <TextBox.Text>
+                <Binding NotifyOnValidationError="True" Path="Size">
+                    <Binding.ValidationRules>
+                        <local1:ValidationSize/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label x:Name="lblAge" Content="House age" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-8.888,-0.352" Height="34" Width="127" FontFamily="Times New Roman" FontSize="16" Grid.Row="3" Margin="0,11,0,0"/>
+        <TextBox x:Name="txtAge" HorizontalAlignment="Left" Height="20" Margin="131,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontFamily="Times New Roman" FontSize="16" Grid.Row="3" Foreground="Black" TextChanged="txtAge_TextChanged" ToolTip="{Binding ElementName=txtAge, Path=(Validation.Errors)[0].ErrorContent}">
+            <TextBox.Text>
+                <Binding NotifyOnValidationError="True" Path="Age">
+                    <Binding.ValidationRules>
+                        <local1:ValidationAge/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label x:Name="lblTime" Content="Appointment time" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-8.888,-0.352" Height="34" Width="127" FontFamily="Times New Roman" FontSize="16" Grid.Row="2" Margin="0,12,0,0"/>
+        <Label x:Name="lblPaddockSize" Content="Paddock size" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-8.888,-0.352" Height="34" Width="127" FontFamily="Times New Roman" FontSize="16" Grid.Row="5" Margin="0,11,0,0"/>
+        <TextBox x:Name="txtPaddockSize" HorizontalAlignment="Left" Height="20" Margin="131,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontFamily="Times New Roman" FontSize="16" Grid.Row="5" TextChanged="txtPaddockSize_TextChanged" ToolTip="{Binding ElementName=txtPaddockSize, Path=(Validation.Errors)[0].ErrorContent}">
+            <TextBox.Text>
+                <Binding NotifyOnValidationError="True" Path="PaddockSize">
+                    <Binding.ValidationRules>
+                        <local1:ValidationPaddockSize/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="95,18,0,0" Grid.Row="6" VerticalAlignment="Top" Width="75" Click="btnAdd_Click"/>
+        <ComboBox x:Name="cboHouseType" HorizontalAlignment="Left" Margin="131,16,0,0" VerticalAlignment="Top" Width="242" SelectionChanged="cboHouseType_SelectionChanged" SelectedIndex="0">
+            <ComboBoxItem>Regular house</ComboBoxItem>
+            <ComboBoxItem>Farm</ComboBoxItem>
+            <ComboBoxItem>Business centre</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="cboTime" HorizontalAlignment="Left" Margin="131,16,0,0" VerticalAlignment="Top" Width="242" Grid.Row="2" BorderBrush="#FF020000" SelectedIndex="0">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="9:00"/>
+            <ComboBoxItem Content="10:00"/>
+            <ComboBoxItem Content="11:00"/>
+            <ComboBoxItem Content="12:00"/>
+            <ComboBoxItem Content="13:00"/>
+            <ComboBoxItem Content="14:00"/>
+            <ComboBoxItem Content="15:00"/>
+            <ComboBoxItem Content="16:00"/>
+            <ComboBoxItem Content="17:00"/>
+        </ComboBox>
+        <Button x:Name="btnDisplay" Content="Display schedule from XML" HorizontalAlignment="Left" Margin="337,18,0,0" Grid.Row="6" VerticalAlignment="Top" Width="149" Click="btnDisplay_Click"/>
+        <Label x:Name="lblErrorType" Content="" HorizontalAlignment="Left" Margin="131,38,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="443" Grid.RowSpan="2" Foreground="#FFF30D0D" IsEnabled="False"/>
+        <Label x:Name="lblErrorName" Content="" HorizontalAlignment="Left" Margin="131,38,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="443" Grid.Row="1" Grid.RowSpan="2" Foreground="#FFF30D0D"/>
+        <Label x:Name="lblErrorSize" Content="" HorizontalAlignment="Left" Margin="131,38,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="443" Grid.Row="4" Grid.RowSpan="2" Foreground="#FFF30D0D"/>
+        <Label x:Name="lblErrorAge" Content="" HorizontalAlignment="Left" Margin="131,38,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="443" Grid.Row="3" Grid.RowSpan="2" Foreground="#FFF30D0D"/>
+        <Label x:Name="lblErrorTime" Content="" HorizontalAlignment="Left" Margin="131,38,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="443" Grid.Row="2" Grid.RowSpan="2" Foreground="#FFF30D0D"/>
+        <Label x:Name="lblErrorPaddockSize" Content="" HorizontalAlignment="Left" Margin="131,38,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="443" Grid.Row="5" Grid.RowSpan="2" Foreground="#FFF30D0D"/>
+        <DataGrid x:Name="gridSchedule" ItemsSource="{Binding WorkDay}" Grid.Column="1" HorizontalAlignment="Left" Height="285" Margin="27,16,0,0" Grid.RowSpan="6" VerticalAlignment="Top" Width="430" Grid.Row="1">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <Binding Path="Age" Converter="{StaticResource ageConverter}" />
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Time" Binding="{Binding Time_str}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Client name" Binding="{Binding Name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="House type" Binding="{Binding Type }" ></DataGridTextColumn>
+                <DataGridTextColumn Header="House age" Binding="{Binding Age}"></DataGridTextColumn>
+                <DataGridTextColumn Header="House size" Binding="{Binding Size}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Paddock size" Binding="{Binding PaddockSize}"></DataGridTextColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <RadioButton x:Name="rbTime" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="38,45,0,0" VerticalAlignment="Top" IsChecked="True" Checked="rbTime_Checked" Grid.RowSpan="2"/>
+        <RadioButton x:Name="rbName" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="90,45,0,0" VerticalAlignment="Top" Checked="rbName_Checked" Grid.RowSpan="2"/>
+        <RadioButton x:Name="rbType" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="166,45,0,0" VerticalAlignment="Top" Checked="rbType_Checked" Grid.RowSpan="2"/>
+        <RadioButton x:Name="rbAge" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="234,45,0,0" VerticalAlignment="Top" Checked="rbAge_Checked" Grid.RowSpan="2"/>
+        <RadioButton x:Name="rbSize" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="300,45,0,0" VerticalAlignment="Top" Checked="rbSize_Checked" Grid.RowSpan="2"/>
+        <RadioButton x:Name="rbPaddockSize" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="371,45,0,0" VerticalAlignment="Top" Checked="rbPaddockSize_Checked" Grid.RowSpan="2"/>
+        <Label Content="Sort by" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="472,0,0,41" RenderTransformOrigin="0.569,1.897" Grid.RowSpan="2"/>
+        <Button x:Name="btnWriteIntoXML" Content="Write data into XML" HorizontalAlignment="Left" Margin="200,18,0,0" Grid.Row="6" VerticalAlignment="Top" Width="113" Click="btnWriteIntoXML_Click"/>
+        <ComboBox x:Name="cboHouseType_Filter" HorizontalAlignment="Left" Margin="105,12,0,0" VerticalAlignment="Top" Width="242" Grid.Column="1" SelectedIndex="0">
+            <ComboBoxItem Content="All"/>
+            <ComboBoxItem Content="Regular house"/>
+            <ComboBoxItem Content="Farm"/>
+            <ComboBoxItem Content="Business centre"/>
+        </ComboBox>
+        <Label Content="Filter by: " HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="41,0,0,15" RenderTransformOrigin="0.569,1.897" Grid.Column="1"/>
+        <Button x:Name="btnFilter" Content="Filter" Grid.Column="1" HorizontalAlignment="Left" Margin="369,13,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.52,-0.2" Click="btnFilter_Click"/>
+        <Label x:Name="lblEmpty" Content="" HorizontalAlignment="Left" Margin="78,39,0,0" Grid.Row="5" VerticalAlignment="Top" Grid.RowSpan="2" Background="White" Foreground="Red"/>
+    </Grid>
+</Window>

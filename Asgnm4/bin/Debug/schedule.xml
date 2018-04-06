@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Clients>
+	<Client>
+		<type>Regular house</type>
+		<time>10:00</time>
+		<name>Ammilie</name>
+		<age>0</age>
+		<size>1</size>
+		<paddockSize>0</paddockSize>
+	</Client>
+</Clients>

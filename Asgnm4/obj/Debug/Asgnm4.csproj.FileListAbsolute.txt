@@ -1,0 +1,62 @@
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\bin\Debug\Asgnm4.exe.config
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\bin\Debug\Asgnm4.exe
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\bin\Debug\Asgnm4.pdb
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4.csprojResolveAssemblyReference.cache
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\MainWindow.g.cs
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\App.g.cs
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.cache
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.lref
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\MainWindow.baml
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4.g.resources
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4.Properties.Resources.resources
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4.csproj.GenerateResource.Cache
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4.csproj.CoreCompileInputs.cache
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4.exe
+C:\Users\Гена\source\repos\Asgnm4\Asgnm4\obj\Debug\Asgnm4.pdb
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\bin\Debug\Asgnm4.exe.config
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\bin\Debug\Asgnm4.exe
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\bin\Debug\Asgnm4.pdb
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\MainWindow.g.cs
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\App.g.cs
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.cache
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.lref
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\MainWindow.baml
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4.g.resources
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4.Properties.Resources.resources
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4.csproj.GenerateResource.Cache
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4.csproj.CoreCompileInputs.cache
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4.exe
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\Asgnm4.pdb
+C:\Users\Гена\Desktop\Level 1\Software Development\Asgnm4\Asgnm4\Asgnm4\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\bin\Debug\Asgnm4.exe.config
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\bin\Debug\Asgnm4.exe
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\bin\Debug\Asgnm4.pdb
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\MainWindow.g.cs
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\App.g.cs
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.cache
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.lref
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\MainWindow.baml
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4.g.resources
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4.Properties.Resources.resources
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4.csproj.GenerateResource.Cache
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4.csproj.CoreCompileInputs.cache
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4.exe
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4.pdb
+C:\Users\Hhusiev1735\Desktop\Level 1\Software Development\Assignments\Asgnm5\Asgnm4\obj\Debug\Asgnm4.csprojResolveAssemblyReference.cache
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\bin\Debug\Asgnm4.exe.config
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\bin\Debug\Asgnm4.exe
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\bin\Debug\Asgnm4.pdb
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4.csprojResolveAssemblyReference.cache
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\MainWindow.g.cs
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\App.g.cs
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.cache
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4_MarkupCompile.lref
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\MainWindow.baml
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4.g.resources
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4.Properties.Resources.resources
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4.csproj.GenerateResource.Cache
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4.csproj.CoreCompileInputs.cache
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4.exe
+C:\Users\Hhusiev1735\Desktop\Appointmne t sheduler\Asgnm4\obj\Debug\Asgnm4.pdb
